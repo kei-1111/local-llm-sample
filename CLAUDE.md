@@ -22,16 +22,16 @@ Gradleの設定を一元管理するカスタムプラグイン（`build-logic/c
 
 | プラグインID | 用途 |
 |-------------|------|
-| `androidtemplate.android.application` | アプリモジュールの設定 |
-| `androidtemplate.android.library` | 基本ライブラリモジュール |
-| `androidtemplate.android.library.compose` | Compose対応ライブラリ |
-| `androidtemplate.android.feature` | フィーチャーモジュール |
-| `androidtemplate.detekt` | コード品質チェック |
+| `localllmsample.android.application` | アプリモジュールの設定 |
+| `localllmsample.android.library` | 基本ライブラリモジュール |
+| `localllmsample.android.library.compose` | Compose対応ライブラリ |
+| `localllmsample.android.feature` | フィーチャーモジュール |
+| `localllmsample.detekt` | コード品質チェック |
 
 使用例：
 ```kotlin
 plugins {
-    alias(libs.plugins.androidtemplate.android.library.compose)
+    alias(libs.plugins.localllmsample.android.library.compose)
 }
 ```
 
@@ -65,7 +65,7 @@ plugins {
 @ScreenPreview
 @Composable
 fun HomeScreenPreview() {
-    AndroidTemplateTheme {
+    LocalLlmSampleTheme {
         HomeScreen()
     }
 }

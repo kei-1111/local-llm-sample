@@ -1,9 +1,9 @@
 plugins {
-    alias(libs.plugins.androidtemplate.android.library.compose)
+    alias(libs.plugins.localllmsample.android.library.compose)
 }
 
 android {
-    namespace = "io.github.kei_1111.androidtemplate.core.ui"
+    namespace = "io.github.kei_1111.local.llm.sample.core.ui"
 }
 
 dependencies {

@@ -1,4 +1,4 @@
-package io.github.kei_1111.androidtemplate.core.ui.modifier
+package io.github.kei_1111.local.llm.sample.core.ui.modifier
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Indication
@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.Role
-import io.github.kei_1111.androidtemplate.core.ui.provider.LocalDebounceClicker
+import io.github.kei_1111.local.llm.sample.core.ui.provider.LocalDebounceClicker
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

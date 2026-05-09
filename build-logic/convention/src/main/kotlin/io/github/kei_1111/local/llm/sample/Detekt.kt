@@ -1,4 +1,4 @@
-package io.github.kei_1111.androidtemplate
+package io.github.kei_1111.local.llm.sample
 
 import io.gitlab.arturbosch.detekt.Detekt
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension

@@ -6,9 +6,9 @@ plugins {
     alias(libs.plugins.detekt) apply false
 
     // Convention Plugins
-    alias(libs.plugins.androidtemplate.android.application) apply false
-    alias(libs.plugins.androidtemplate.android.feature) apply false
-    alias(libs.plugins.androidtemplate.android.library) apply false
-    alias(libs.plugins.androidtemplate.android.library.compose) apply false
-    alias(libs.plugins.androidtemplate.detekt) apply false
+    alias(libs.plugins.localllmsample.android.application) apply false
+    alias(libs.plugins.localllmsample.android.feature) apply false
+    alias(libs.plugins.localllmsample.android.library) apply false
+    alias(libs.plugins.localllmsample.android.library.compose) apply false
+    alias(libs.plugins.localllmsample.detekt) apply false
 }

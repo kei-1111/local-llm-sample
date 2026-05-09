@@ -1,4 +1,4 @@
-package io.github.kei_1111.androidtemplate
+package io.github.kei_1111.local.llm.sample
 
 import org.gradle.api.Project
 import org.gradle.api.artifacts.Dependency

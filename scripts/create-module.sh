@@ -12,7 +12,7 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-BASE_PACKAGE="io.github.kei_1111.androidtemplate"
+BASE_PACKAGE="io.github.kei_1111.local.llm.sample"
 
 echo -e "${GREEN}=== Android Template Module Creator ===${NC}\n"
 
@@ -32,14 +32,14 @@ case $module_type in
         echo "2) No  - Use android.library"
         read -p "Enter choice [1-2]: " compose_choice
         case $compose_choice in
-            1) PLUGIN="androidtemplate.android.library.compose" ;;
-            2) PLUGIN="androidtemplate.android.library" ;;
+            1) PLUGIN="localllmsample.android.library.compose" ;;
+            2) PLUGIN="localllmsample.android.library" ;;
             *) echo -e "${RED}Invalid choice${NC}"; exit 1 ;;
         esac
         ;;
     2)
         MODULE_PREFIX="feature"
-        PLUGIN="androidtemplate.android.feature"
+        PLUGIN="localllmsample.android.feature"
         ;;
     3)
         read -p "Enter custom path (e.g., data/local): " MODULE_PREFIX
@@ -49,9 +49,9 @@ case $module_type in
         echo "3) android.feature"
         read -p "Enter choice [1-3]: " plugin_choice
         case $plugin_choice in
-            1) PLUGIN="androidtemplate.android.library" ;;
-            2) PLUGIN="androidtemplate.android.library.compose" ;;
-            3) PLUGIN="androidtemplate.android.feature" ;;
+            1) PLUGIN="localllmsample.android.library" ;;
+            2) PLUGIN="localllmsample.android.library.compose" ;;
+            3) PLUGIN="localllmsample.android.feature" ;;
             *) echo -e "${RED}Invalid choice${NC}"; exit 1 ;;
         esac
         ;;

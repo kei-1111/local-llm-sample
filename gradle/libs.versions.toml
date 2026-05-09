@@ -56,9 +56,9 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "serialization" }
 
 # Convention Plugins
-androidtemplate-android-application = { id = "androidtemplate.android.application" }
-androidtemplate-android-feature = { id = "androidtemplate.android.feature" }
-androidtemplate-android-library = { id = "androidtemplate.android.library" }
-androidtemplate-android-library-compose = { id = "androidtemplate.android.library.compose" }
-androidtemplate-detekt = { id = "androidtemplate.detekt" }
+localllmsample-android-application = { id = "localllmsample.android.application" }
+localllmsample-android-feature = { id = "localllmsample.android.feature" }
+localllmsample-android-library = { id = "localllmsample.android.library" }
+localllmsample-android-library-compose = { id = "localllmsample.android.library.compose" }
+localllmsample-detekt = { id = "localllmsample.detekt" }
 

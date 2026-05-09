@@ -1,6 +1,6 @@
 @file:Suppress("MagicNumber")
 
-package io.github.kei_1111.androidtemplate.core.ui.provider
+package io.github.kei_1111.local.llm.sample.core.ui.provider
 
 import android.os.SystemClock
 import androidx.compose.runtime.Composable

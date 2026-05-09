@@ -1,4 +1,4 @@
-package io.github.kei_1111.androidtemplate.core.designsystem.theme
+package io.github.kei_1111.local.llm.sample.core.designsystem.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -33,7 +33,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun AndroidTemplateTheme(
+fun LocalLlmSampleTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

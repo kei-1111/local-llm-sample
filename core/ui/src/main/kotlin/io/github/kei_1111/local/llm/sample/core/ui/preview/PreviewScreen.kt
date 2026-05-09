@@ -1,4 +1,4 @@
-package io.github.kei_1111.androidtemplate.core.ui.preview
+package io.github.kei_1111.local.llm.sample.core.ui.preview
 
 import android.content.res.Configuration
 import androidx.compose.ui.tooling.preview.Devices

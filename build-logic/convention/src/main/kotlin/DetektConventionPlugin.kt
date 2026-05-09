@@ -1,7 +1,7 @@
-import io.github.kei_1111.androidtemplate.configureDetekt
-import io.github.kei_1111.androidtemplate.detektPlugins
-import io.github.kei_1111.androidtemplate.library
-import io.github.kei_1111.androidtemplate.libs
+import io.github.kei_1111.local.llm.sample.configureDetekt
+import io.github.kei_1111.local.llm.sample.detektPlugins
+import io.github.kei_1111.local.llm.sample.library
+import io.github.kei_1111.local.llm.sample.libs
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project

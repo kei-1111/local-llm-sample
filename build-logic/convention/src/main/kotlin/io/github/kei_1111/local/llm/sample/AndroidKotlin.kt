@@ -1,4 +1,4 @@
-package io.github.kei_1111.androidtemplate
+package io.github.kei_1111.local.llm.sample
 
 import com.android.build.api.dsl.CommonExtension
 import org.gradle.api.JavaVersion
