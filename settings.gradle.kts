@@ -24,4 +24,6 @@ rootProject.name = "local-llm-sample"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
 include(":core:designsystem")
+include(":core:llm")
 include(":core:ui")
+include(":feature:chat")

@@ -22,6 +22,9 @@ android {
 }
 
 dependencies {
+    implementation(projects.core.llm)
+    implementation(projects.feature.chat)
+
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.navigation.compose)
